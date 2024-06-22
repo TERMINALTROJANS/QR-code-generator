@@ -15,7 +15,7 @@ function generateQR() {
   
     // Create QR code image
     const qrImage = document.createElement('img');
-    qrImage.src = `/generate-qr?data=${encodeURIComponent(url)}`; // Route for backend QR code generation
+    qrImage.src = `https://qr-code-generator-od5c.onrender.com/generate-qr?data=${encodeURIComponent(url)}`; // Route for backend QR code generation
   
     // Append QR code to container
     qrCodeContainer.appendChild(qrImage);
